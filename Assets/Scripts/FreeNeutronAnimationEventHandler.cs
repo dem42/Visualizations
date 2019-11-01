@@ -7,6 +7,6 @@ public class FreeNeutronAnimationEventHandler : MonoBehaviour
     
     void HideNeutronWhenAbsorbed() {
         Debug.Log("Animation event callback received");
-        gameObject.SetActive(false);
+        //gameObject.SetActive(false);
     }
 }
